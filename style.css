@@ -1,0 +1,103 @@
+.navbar {
+  background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+.navbar-brand b {
+  color: red;
+}
+.navbar .nav-link:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  color: gray !important;
+}
+
+.main button {
+  background-color: rgb(108, 108, 189);
+  color: white;
+}
+.main button:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  color: gray !important;
+  background-color: rgb(48, 46, 46);
+  color: white !important;
+}
+.main .images img {
+  border-radius: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product .card {
+  border: 0;
+}
+.product img {
+  border-radius: 50%;
+  padding: 0 15px;
+  margin-top: 10px;
+  width: 100%;
+  height: 18rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product {
+  background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%); /*url(https://images.unsplash.com/photo-1515266591878-f93e32bc5937?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJsdWV8ZW58MHx8MHx8fDA%3D) */
+  padding: 20px;
+}
+.product .card:hover {
+  background: rgba(0, 0, 0, 0);
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  color: gray !important;
+  color: white !important;
+  transition: ease 0.8s;
+}
+
+.album-card:hover p {
+  color: red;
+  display: block;
+}
+.album-card p {
+  bottom: 20px;
+  left: 30px;
+  display: none;
+}
+.album img {
+  height: 200px;
+  width: 100%;
+  margin: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+.album img:hover {
+  opacity: 0.5;
+  transition: ease 0.8s;
+}
+
+.about .col-4 {
+  box-shadow: 3px 3px 5px rgba(232, 228, 228, 0.564) !important;
+}
+.about .for-span {
+  font-size: 18px;
+}
+.about i {
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+
+.footer {
+  background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+.footer .list-unstyled i {
+  color: white;
+}
+.footer .list-unstyled i:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  color: gray !important;
+}/*# sourceMappingURL=style.css.map */

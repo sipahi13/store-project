@@ -1,0 +1,160 @@
+@mixin hover {
+    transform: scale(1.1);
+    transition: ease 0.5s;
+    color: gray !important;
+
+}
+
+.navbar{
+    background:linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, 
+    rgb(11, 132, 145) 91.1%);
+
+    &-brand{
+        b{
+            color: red;
+        }
+    }
+    .nav-link{
+        &:hover{
+            @include hover;
+        }
+    }
+}
+
+.main{
+
+    button{
+        background-color: rgb(108, 108, 189);
+        color: white;
+        &:hover{
+            @include hover;
+            background-color: rgb(48, 46, 46);
+            color: white !important;
+        }
+        
+    }
+
+
+    .images img{
+        border-radius: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.product{
+
+    .card{
+        border: 0;
+    }
+   
+
+    img{
+        border-radius: 50%;
+        padding: 0 15px;
+        margin-top: 10px;
+        width: 100%;
+        height: 18rem;
+        object-fit: cover;
+    }
+}
+
+.product{
+
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, 
+    rgb(11, 132, 145) 91.1%); /*url(https://images.unsplash.com/photo-1515266591878-f93e32bc5937?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJsdWV8ZW58MHx8MHx8fDA%3D) */;
+    padding: 20px;
+
+    .card{
+        
+        &:hover{
+            background: rgba(0, 0, 0, 0);
+            
+            @include hover;
+            color: white !important;
+            transition: ease .8s;
+
+        }
+    }
+}
+
+.album{
+
+
+
+    &-card{
+        &:hover{
+            //border: 2px solid red;
+
+            p{
+                color: red;
+                display: block;
+            }
+        }
+
+        p{
+            bottom: 20px;
+            left: 30px;
+            display: none;
+        }
+    }
+
+    img{
+        height: 200px;
+        width: 100%;
+        margin: 10px;
+        object-fit: cover;
+        border-radius: 25px;
+        &:hover{
+            opacity: 0.5;
+            transition: ease .8s;
+        }
+    }
+}
+
+.about{
+
+    .col-4{
+        box-shadow: 3px 3px 5px rgba(232, 228, 228, 0.564) !important;
+    }
+    
+    .for-span{
+        font-size: 18px;
+    }
+
+    i{
+        font-size: 25px;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
+        background:linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, 
+    rgb(11, 132, 145) 91.1%);
+
+   
+
+    }
+}
+
+.footer{
+    background:linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, 
+    rgb(11, 132, 145) 91.1%);
+
+    .list-unstyled{
+        i{
+            color: white;
+
+            &:hover{
+                @include hover
+            }
+        }
+
+        
+
+
+    }
+}
+
+    
+
+    
+
